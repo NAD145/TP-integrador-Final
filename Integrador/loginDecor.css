@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Figtree;
+}
+@font-face{
+    font-family: Rev;
+    src: url(fuente/Revamped.otf);
+}
+
+body{
+    background-color: #171717;
+}
+h2{
+    font-family: Rev;
+    font-weight: 400;
+}
+header{
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #303030;;
+}
+header img{
+    height: 90px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav #ul1{
+    display: flex;
+    flex-direction: row;
+    padding: 0 60px;
+}
+
+nav #ul1 #li1{
+    margin: 0 10px;
+    list-style: none;
+    padding: 7px 20px;
+    border-radius: 9999px;
+    background-color: #404040;
+    border-color: transparent;
+}
+nav a{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+nav input{
+    background-color: #404040;
+    color: white;
+    border-color: transparent;
+    padding: 7px 20px;
+    border-radius: 9999px;
+}
+
+#button{
+    margin: 0 10px;
+    background-color: #404040;
+    border: 2px solid #404040;;
+    border-radius: 9999px;
+    font-size: 30px;
+    padding: 0px 3px;
+    color: white;
+    float: right;
+    list-style: none;
+    transition: border-color 0.4s;
+}
+#button:hover {
+    border-color: #b43597;
+}
+#button li ul{
+    background-color: #404040dd;
+    left: auto;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    display: none;
+}
+
+#button li:hover > ul{
+    display: block;
+}
+nav #ul2 #li2{
+    border: 3px solid #40404000;
+    list-style: none;
+    padding: 10px;
+    transition: 0.4s;
+}
+#ul2 #li2:hover {
+    border-color: #b43597;
+
+}
+nav #ul2 #li2 a{
+    font-size: 20px;
+}
+
+
+
+
+main{
+    border-radius: 25px;
+    margin: 60px 300px;
+    border: 3px solid #9b3a91;
+}
+main section h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section form{
+    color: white;
+}
+main section{
+    text-align: center;
+    padding: 80px 80px;
+}
+main section div{
+    margin-bottom: 10px;
+}
+#formbox{
+    color: white;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: #404040;
+    height: 30px;
+    width: 300px;
+}
+form input{
+    color: black;
+}
+footer{
+    padding: 20px 20px;
+    border-top: 1px solid #303030;
+}
+#DivFooter{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    height: 90px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    font-size: 30px;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: #303030;
+    border-radius: 15px;
+}
+footer li a i{
+    color: white;
+}
+footer #copy{
+    text-align: right;
+}
+footer #iconos{
+    padding-right: 90px;
+}
+#mapa{
+    text-align: center;
+}
