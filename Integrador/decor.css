@@ -99,6 +99,11 @@ nav #ul2 #li2 a{
 main{
     color: white;
 }
+
+
+/* index */
+
+
 #encabezado{
     width: 1224px;
     height: 243px;
@@ -156,6 +161,94 @@ main{
     padding: 20px 20px;
     border-radius: 25px;
 }
+
+/* clasific */
+
+
+#clasific{
+    color: white;
+    margin: 20px 20px;
+}
+#contenedorFilas{
+    display: flex;
+    justify-content: space-between;
+}
+#contenedorFilas a{
+    text-decoration: none;
+    color: white;
+}
+
+#mangas{
+    width: 50%;
+    color: white;
+    margin: 10px 10px;
+}
+#mangas .ContL{
+    margin: 10px;
+    border: 3px solid #9b3a91;
+    border-radius: 25px;
+    padding: 10px 10px;
+    display: flex;
+}
+.ContL img{
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.ContL p{
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: #9b3a91;
+    width: 80px;
+    border-radius: 25px;
+}
+
+
+/* login registro */
+
+.logAndReg{
+    border-radius: 25px;
+    margin: 60px 300px;
+    border: 3px solid #9b3a91;
+}
+.logAndReg section h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section form{
+    color: white;
+}
+.logAndReg section{
+    text-align: center;
+    padding: 80px 80px;
+}
+.logAndReg section div{
+    margin-bottom: 10px;
+}
+.formbox{
+    color: white;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: #404040;
+    height: 30px;
+    width: 300px;
+}
+form input{
+    color: black;
+}
+#butts{
+    color: white;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: #404040;
+    height: 30px;
+    width: 60px;
+}
+
+
+
+/* footer*/
+
 #PedidoYa{
     max-width: 1224px;
 }
